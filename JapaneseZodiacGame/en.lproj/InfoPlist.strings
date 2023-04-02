@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  GameTemplate
+
+  Created by 村中令 on 2022/09/18.
+  
+*/
+
+"CFBundleDisplayName" = "";
+
+"NSUserTrackingUsageDescription" = "By pressing the \"Allow\" button, your optimized ads will be displayed";

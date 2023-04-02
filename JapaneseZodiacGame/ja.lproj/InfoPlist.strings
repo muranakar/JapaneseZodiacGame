@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  GameTemplate
+
+  Created by 村中令 on 2022/09/18.
+  
+*/
+
+"CFBundleDisplayName" = "干支クイズ";
+
+"NSUserTrackingUsageDescription" = "「許可」ボタンを押すことによって、お客様に最適化された広告が表示されます";

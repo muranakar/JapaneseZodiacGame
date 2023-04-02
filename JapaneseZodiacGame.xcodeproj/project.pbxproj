@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DE5A51455E1C04AE86472E2 /* Pods_JapaneseZodiacGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0948847C12E0C3ADB407DEC9 /* Pods_JapaneseZodiacGame.framework */; };
+		B20B8A0328EF9DFB00CE8802 /* WeekDayGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20B8A0228EF9DFB00CE8802 /* WeekDayGame.swift */; };
+		B2296ECE28F6EDFD00F3F85B /* YamanoteLineTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2296ECD28F6EDFD00F3F85B /* YamanoteLineTest.swift */; };
+		B24B79AD28F6056500C76294 /* YamanoteLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B79AC28F6056500C76294 /* YamanoteLine.swift */; };
+		B24B79B128F6334600C76294 /* JapaneseZodiac.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B79B028F6334600C76294 /* JapaneseZodiac.swift */; };
+		B24B79BB28F6370500C76294 /* WeekDayGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B79BA28F6370500C76294 /* WeekDayGameTests.swift */; };
+		B24B79C128F6371100C76294 /* ZodiacTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24B79B228F636BD00C76294 /* ZodiacTest.swift */; };
+		B278FB3928D150DD002076C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278FB3828D150DD002076C1 /* AppDelegate.swift */; };
+		B278FB3B28D150DD002076C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278FB3A28D150DD002076C1 /* SceneDelegate.swift */; };
+		B278FB3D28D150DD002076C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278FB3C28D150DD002076C1 /* ViewController.swift */; };
+		B278FB4028D150DD002076C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B278FB3E28D150DD002076C1 /* Main.storyboard */; };
+		B278FB4228D150DE002076C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B278FB4128D150DE002076C1 /* Assets.xcassets */; };
+		B278FB4528D150DE002076C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B278FB4328D150DE002076C1 /* LaunchScreen.storyboard */; };
+		B278FB5028D15140002076C1 /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B278FB4F28D15140002076C1 /* Game.storyboard */; };
+		B278FB5228D15151002076C1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278FB5128D15151002076C1 /* GameViewController.swift */; };
+		B278FB5428D1515E002076C1 /* Result.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B278FB5328D1515E002076C1 /* Result.storyboard */; };
+		B278FB5628D1516D002076C1 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278FB5528D1516D002076C1 /* ResultViewController.swift */; };
+		B295494428F762BE00B3DA0D /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B295494328F762BE00B3DA0D /* correct.mp3 */; };
+		B295494628F762C600B3DA0D /* miss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B295494528F762C600B3DA0D /* miss.mp3 */; };
+		B295CECD28D743CF009251E1 /* GoogleAdID.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295CECC28D743CF009251E1 /* GoogleAdID.swift */; };
+		B295CED028D7440F009251E1 /* InitNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295CECF28D7440F009251E1 /* InitNavigationController.swift */; };
+		B295CED228D7446C009251E1 /* AppTrackingTransparency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295CED128D7446B009251E1 /* AppTrackingTransparency.swift */; };
+		B295CED928D74880009251E1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B295CEDB28D74880009251E1 /* Localizable.strings */; };
+		B295CEDF28D748A5009251E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B295CEE128D748A5009251E1 /* InfoPlist.strings */; };
+		B2A990A628FF4E03005319E4 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A990A528FF4E03005319E4 /* DeviceType.swift */; };
+		B2B8A0F328F3743700E03803 /* CoinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B8A0F228F3743600E03803 /* CoinRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B24B79BC28F6370500C76294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B278FB2D28D150DD002076C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B278FB3428D150DD002076C1;
+			remoteInfo = WeekDayGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0412147EBABD6323B5AA7134 /* Pods-WeekDayGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeekDayGame.release.xcconfig"; path = "Target Support Files/Pods-WeekDayGame/Pods-WeekDayGame.release.xcconfig"; sourceTree = "<group>"; };
+		0948847C12E0C3ADB407DEC9 /* Pods_JapaneseZodiacGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JapaneseZodiacGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4BF11AB904F2C4AD0C1212 /* Pods-JapaneseZodiacGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JapaneseZodiacGame.debug.xcconfig"; path = "Target Support Files/Pods-JapaneseZodiacGame/Pods-JapaneseZodiacGame.debug.xcconfig"; sourceTree = "<group>"; };
+		B20B8A0228EF9DFB00CE8802 /* WeekDayGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekDayGame.swift; sourceTree = "<group>"; };
+		B2296ECD28F6EDFD00F3F85B /* YamanoteLineTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamanoteLineTest.swift; sourceTree = "<group>"; };
+		B24B79AC28F6056500C76294 /* YamanoteLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YamanoteLine.swift; sourceTree = "<group>"; };
+		B24B79B028F6334600C76294 /* JapaneseZodiac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseZodiac.swift; sourceTree = "<group>"; };
+		B24B79B228F636BD00C76294 /* ZodiacTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacTest.swift; sourceTree = "<group>"; };
+		B24B79B828F6370500C76294 /* JapaneseZodiacGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseZodiacGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B24B79BA28F6370500C76294 /* WeekDayGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayGameTests.swift; sourceTree = "<group>"; };
+		B278FB3528D150DD002076C1 /* JapaneseZodiacGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneseZodiacGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B278FB3828D150DD002076C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B278FB3A28D150DD002076C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B278FB3C28D150DD002076C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B278FB3F28D150DD002076C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B278FB4128D150DE002076C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B278FB4428D150DE002076C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B278FB4628D150DE002076C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B278FB4F28D15140002076C1 /* Game.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Game.storyboard; sourceTree = "<group>"; };
+		B278FB5128D15151002076C1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B278FB5328D1515E002076C1 /* Result.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Result.storyboard; sourceTree = "<group>"; };
+		B278FB5528D1516D002076C1 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B295494328F762BE00B3DA0D /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = "<group>"; };
+		B295494528F762C600B3DA0D /* miss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = miss.mp3; sourceTree = "<group>"; };
+		B295CECC28D743CF009251E1 /* GoogleAdID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAdID.swift; sourceTree = "<group>"; };
+		B295CECF28D7440F009251E1 /* InitNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitNavigationController.swift; sourceTree = "<group>"; };
+		B295CED128D7446B009251E1 /* AppTrackingTransparency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTrackingTransparency.swift; sourceTree = "<group>"; };
+		B295CED428D7484B009251E1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		B295CED528D7484B009251E1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B295CEDA28D74880009251E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B295CEDC28D74884009251E1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B295CEE028D748A5009251E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B295CEE228D748AA009251E1 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2A990A528FF4E03005319E4 /* DeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		B2B8A0F228F3743600E03803 /* CoinRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinRepository.swift; sourceTree = "<group>"; };
+		BE86F8B6468C822FAE5564FF /* Pods-WeekDayGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeekDayGame.debug.xcconfig"; path = "Target Support Files/Pods-WeekDayGame/Pods-WeekDayGame.debug.xcconfig"; sourceTree = "<group>"; };
+		C60653A2A56474FC7AF2DB88 /* Pods-JapaneseZodiacGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JapaneseZodiacGame.release.xcconfig"; path = "Target Support Files/Pods-JapaneseZodiacGame/Pods-JapaneseZodiacGame.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B24B79B528F6370500C76294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B278FB3228D150DD002076C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE5A51455E1C04AE86472E2 /* Pods_JapaneseZodiacGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4838CC051BF4B3B2309C8310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE86F8B6468C822FAE5564FF /* Pods-WeekDayGame.debug.xcconfig */,
+				0412147EBABD6323B5AA7134 /* Pods-WeekDayGame.release.xcconfig */,
+				0D4BF11AB904F2C4AD0C1212 /* Pods-JapaneseZodiacGame.debug.xcconfig */,
+				C60653A2A56474FC7AF2DB88 /* Pods-JapaneseZodiacGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B24B79B928F6370500C76294 /* JapaneseZodiacGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				B24B79BA28F6370500C76294 /* WeekDayGameTests.swift */,
+				B24B79B228F636BD00C76294 /* ZodiacTest.swift */,
+				B2296ECD28F6EDFD00F3F85B /* YamanoteLineTest.swift */,
+			);
+			path = JapaneseZodiacGameTests;
+			sourceTree = "<group>";
+		};
+		B278FB2C28D150DD002076C1 = {
+			isa = PBXGroup;
+			children = (
+				B278FB3728D150DD002076C1 /* JapaneseZodiacGame */,
+				B24B79B928F6370500C76294 /* JapaneseZodiacGameTests */,
+				B278FB3628D150DD002076C1 /* Products */,
+				4838CC051BF4B3B2309C8310 /* Pods */,
+				F727223CB42E60B8F73071F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B278FB3628D150DD002076C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B278FB3528D150DD002076C1 /* JapaneseZodiacGame.app */,
+				B24B79B828F6370500C76294 /* JapaneseZodiacGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B278FB3728D150DD002076C1 /* JapaneseZodiacGame */ = {
+			isa = PBXGroup;
+			children = (
+				B20B8A0228EF9DFB00CE8802 /* WeekDayGame.swift */,
+				B24B79B028F6334600C76294 /* JapaneseZodiac.swift */,
+				B24B79AC28F6056500C76294 /* YamanoteLine.swift */,
+				B278FB3828D150DD002076C1 /* AppDelegate.swift */,
+				B278FB3A28D150DD002076C1 /* SceneDelegate.swift */,
+				B2B8A0F228F3743600E03803 /* CoinRepository.swift */,
+				B2A990A528FF4E03005319E4 /* DeviceType.swift */,
+				B295494328F762BE00B3DA0D /* correct.mp3 */,
+				B295494528F762C600B3DA0D /* miss.mp3 */,
+				B295CED328D7446E009251E1 /* AppTracking */,
+				B295CECE28D743D3009251E1 /* GoogleAdmob */,
+				B278FB4C28D15100002076C1 /* Start */,
+				B278FB4D28D1510C002076C1 /* Game */,
+				B278FB4E28D15118002076C1 /* Result */,
+				B278FB4128D150DE002076C1 /* Assets.xcassets */,
+				B295CEE128D748A5009251E1 /* InfoPlist.strings */,
+				B295CEDB28D74880009251E1 /* Localizable.strings */,
+				B278FB4328D150DE002076C1 /* LaunchScreen.storyboard */,
+				B278FB4628D150DE002076C1 /* Info.plist */,
+			);
+			path = JapaneseZodiacGame;
+			sourceTree = "<group>";
+		};
+		B278FB4C28D15100002076C1 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				B278FB3E28D150DD002076C1 /* Main.storyboard */,
+				B295CECF28D7440F009251E1 /* InitNavigationController.swift */,
+				B278FB3C28D150DD002076C1 /* ViewController.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		B278FB4D28D1510C002076C1 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				B278FB4F28D15140002076C1 /* Game.storyboard */,
+				B278FB5128D15151002076C1 /* GameViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		B278FB4E28D15118002076C1 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				B278FB5328D1515E002076C1 /* Result.storyboard */,
+				B278FB5528D1516D002076C1 /* ResultViewController.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		B295CECE28D743D3009251E1 /* GoogleAdmob */ = {
+			isa = PBXGroup;
+			children = (
+				B295CECC28D743CF009251E1 /* GoogleAdID.swift */,
+			);
+			path = GoogleAdmob;
+			sourceTree = "<group>";
+		};
+		B295CED328D7446E009251E1 /* AppTracking */ = {
+			isa = PBXGroup;
+			children = (
+				B295CED128D7446B009251E1 /* AppTrackingTransparency.swift */,
+			);
+			path = AppTracking;
+			sourceTree = "<group>";
+		};
+		F727223CB42E60B8F73071F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0948847C12E0C3ADB407DEC9 /* Pods_JapaneseZodiacGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B24B79B728F6370500C76294 /* JapaneseZodiacGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24B79BE28F6370500C76294 /* Build configuration list for PBXNativeTarget "JapaneseZodiacGameTests" */;
+			buildPhases = (
+				B24B79B428F6370500C76294 /* Sources */,
+				B24B79B528F6370500C76294 /* Frameworks */,
+				B24B79B628F6370500C76294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B24B79BD28F6370500C76294 /* PBXTargetDependency */,
+			);
+			name = JapaneseZodiacGameTests;
+			productName = WeekDayGameTests;
+			productReference = B24B79B828F6370500C76294 /* JapaneseZodiacGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B278FB3428D150DD002076C1 /* JapaneseZodiacGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B278FB4928D150DE002076C1 /* Build configuration list for PBXNativeTarget "JapaneseZodiacGame" */;
+			buildPhases = (
+				D2621FAB27617B88966B6DD4 /* [CP] Check Pods Manifest.lock */,
+				B278FB3128D150DD002076C1 /* Sources */,
+				B278FB3228D150DD002076C1 /* Frameworks */,
+				B278FB3328D150DD002076C1 /* Resources */,
+				B28FD63D28EE460200B29447 /* ShellScript */,
+				B8786BD9A220650EB93C1012 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JapaneseZodiacGame;
+			productName = NumberMemoryGame;
+			productReference = B278FB3528D150DD002076C1 /* JapaneseZodiacGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B278FB2D28D150DD002076C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B24B79B728F6370500C76294 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = B278FB3428D150DD002076C1;
+					};
+					B278FB3428D150DD002076C1 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = B278FB3028D150DD002076C1 /* Build configuration list for PBXProject "JapaneseZodiacGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = B278FB2C28D150DD002076C1;
+			productRefGroup = B278FB3628D150DD002076C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B278FB3428D150DD002076C1 /* JapaneseZodiacGame */,
+				B24B79B728F6370500C76294 /* JapaneseZodiacGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B24B79B628F6370500C76294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B278FB3328D150DD002076C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B278FB5428D1515E002076C1 /* Result.storyboard in Resources */,
+				B295CEDF28D748A5009251E1 /* InfoPlist.strings in Resources */,
+				B295494628F762C600B3DA0D /* miss.mp3 in Resources */,
+				B295CED928D74880009251E1 /* Localizable.strings in Resources */,
+				B295494428F762BE00B3DA0D /* correct.mp3 in Resources */,
+				B278FB5028D15140002076C1 /* Game.storyboard in Resources */,
+				B278FB4528D150DE002076C1 /* LaunchScreen.storyboard in Resources */,
+				B278FB4228D150DE002076C1 /* Assets.xcassets in Resources */,
+				B278FB4028D150DD002076C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B28FD63D28EE460200B29447 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		B8786BD9A220650EB93C1012 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JapaneseZodiacGame/Pods-JapaneseZodiacGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JapaneseZodiacGame/Pods-JapaneseZodiacGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JapaneseZodiacGame/Pods-JapaneseZodiacGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2621FAB27617B88966B6DD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JapaneseZodiacGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B24B79B428F6370500C76294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B79BB28F6370500C76294 /* WeekDayGameTests.swift in Sources */,
+				B24B79C128F6371100C76294 /* ZodiacTest.swift in Sources */,
+				B2296ECE28F6EDFD00F3F85B /* YamanoteLineTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B278FB3128D150DD002076C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B295CECD28D743CF009251E1 /* GoogleAdID.swift in Sources */,
+				B278FB5628D1516D002076C1 /* ResultViewController.swift in Sources */,
+				B2A990A628FF4E03005319E4 /* DeviceType.swift in Sources */,
+				B2B8A0F328F3743700E03803 /* CoinRepository.swift in Sources */,
+				B278FB5228D15151002076C1 /* GameViewController.swift in Sources */,
+				B24B79B128F6334600C76294 /* JapaneseZodiac.swift in Sources */,
+				B295CED028D7440F009251E1 /* InitNavigationController.swift in Sources */,
+				B20B8A0328EF9DFB00CE8802 /* WeekDayGame.swift in Sources */,
+				B278FB3D28D150DD002076C1 /* ViewController.swift in Sources */,
+				B24B79AD28F6056500C76294 /* YamanoteLine.swift in Sources */,
+				B278FB3928D150DD002076C1 /* AppDelegate.swift in Sources */,
+				B295CED228D7446C009251E1 /* AppTrackingTransparency.swift in Sources */,
+				B278FB3B28D150DD002076C1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B24B79BD28F6370500C76294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B278FB3428D150DD002076C1 /* JapaneseZodiacGame */;
+			targetProxy = B24B79BC28F6370500C76294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B278FB3E28D150DD002076C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B278FB3F28D150DD002076C1 /* Base */,
+				B295CED428D7484B009251E1 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B278FB4328D150DE002076C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B278FB4428D150DE002076C1 /* Base */,
+				B295CED528D7484B009251E1 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B295CEDB28D74880009251E1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B295CEDA28D74880009251E1 /* en */,
+				B295CEDC28D74884009251E1 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		B295CEE128D748A5009251E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B295CEE028D748A5009251E1 /* en */,
+				B295CEE228D748AA009251E1 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B24B79BF28F6370500C76294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ7VR35KC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muranaka.WeekDayGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapaneseZodiacGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapaneseZodiacGame";
+			};
+			name = Debug;
+		};
+		B24B79C028F6370500C76294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ7VR35KC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muranaka.WeekDayGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapaneseZodiacGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JapaneseZodiacGame";
+			};
+			name = Release;
+		};
+		B278FB4728D150DE002076C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B278FB4828D150DE002076C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B278FB4A28D150DE002076C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4BF11AB904F2C4AD0C1212 /* Pods-JapaneseZodiacGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ7VR35KC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JapaneseZodiacGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "干支クイズ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muranaka.JapaneseZodiacGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B278FB4B28D150DE002076C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C60653A2A56474FC7AF2DB88 /* Pods-JapaneseZodiacGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DJ7VR35KC8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JapaneseZodiacGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "干支クイズ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muranaka.JapaneseZodiacGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B24B79BE28F6370500C76294 /* Build configuration list for PBXNativeTarget "JapaneseZodiacGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24B79BF28F6370500C76294 /* Debug */,
+				B24B79C028F6370500C76294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B278FB3028D150DD002076C1 /* Build configuration list for PBXProject "JapaneseZodiacGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B278FB4728D150DE002076C1 /* Debug */,
+				B278FB4828D150DE002076C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B278FB4928D150DE002076C1 /* Build configuration list for PBXNativeTarget "JapaneseZodiacGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B278FB4A28D150DE002076C1 /* Debug */,
+				B278FB4B28D150DE002076C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B278FB2D28D150DD002076C1 /* Project object */;
+}

@@ -1,0 +1,16 @@
+included:
+  - JapaneseZodiacGame/
+opt_in_rules:
+  - legacy_random
+  - private_action
+  - private_outlet
+  - unneeded_parentheses_in_closure_argument
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - todo
+excluded:
+  - Pods
+disabled_rules:
+  - force_cast
+  - force_try
+  - identifier_name

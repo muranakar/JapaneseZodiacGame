@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GameTemplate
+
+  Created by 村中令 on 2022/09/18.
+  
+*/
+
+"languageCode" = "en";
+
+"alertTitleText" = "I'm sorry";
+"alertMessageText" = "Video cannot be played at this time.";
+
+"backTextButton" = "Back";
+"resultCopyButtonText" = "CopyResult";

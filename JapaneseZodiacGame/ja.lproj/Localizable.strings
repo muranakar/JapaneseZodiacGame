@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  GameTemplate
+
+  Created by 村中令 on 2022/09/18.
+  
+*/
+
+"languageCode" = "ja";
+
+"alertTitleText" = "申し訳ありません";
+"alertMessageText" = "現在は動画を再生することができません。";
+
+"backTextButton" = "戻る";
+"resultCopyButtonText" = "結果をコピー";
